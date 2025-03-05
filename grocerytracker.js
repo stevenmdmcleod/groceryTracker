@@ -16,65 +16,109 @@ function menu(){
     console.log("(5): exit Grocery Shopper");
 }
 
-function handler(option) {
-    switch (option) {
-      case '1':
-        console.log("Displaying grocery list...");
+
+function display(){
+    console.log("Displaying grocery list...");
         // Functionality for option 1
         console.log(list);
         menu();
-        break;
-      case '2':
-        console.log("adding item to the list...");
-        // Functionality for option 2
-        let itemname = "";
-        let quantity = 0;
-        let price = 0;
-        let bought = false;
-        //const reply = await 
+}
+
+async function addItem(){
+    console.log("adding item to the list...");
+    // Functionality for option 2
+    let itemname = "";
+    let quantity = 0;
+    let price = 0;
+    let bought = false;
+    
+    await new Promise((callbackfn, errorfn) => {
         rl.question('Enter name of item:', (name) => {
             itemname = name;
-            rl.question('Enter quantity:', (q) => {
-                quantity = Number(q);
-                rl.question('Enter price:', (p) => {
-                    price = Number(p);
-                    let item = {itemname, quantity, price, bought};
-                    list.push(item);
-                    console.log("Item successfully added!\n");
-                    
-                    
-                    menu()
-                });
-            });
-
-        });
+            callbackfn();
+        }), ()=> {
+            errorFn();
+            
+        };
         
-        break;
-      case '3':
-        //case 3 functionality
-        rl.question('Enter name of item to be removed:', (itemname) => {
-            const delitem = list.find(item => item.itemname === itemname);
-            if(delitem == null){
-                console.log('Item not found!');
-            }
-            else{
-                console.log('item found, removing item...');
-                list = list.filter(item => item !== delitem);
-                console.log("Item successfully removed!\n");
-            }
-            
-            
-            menu()
-            
+    });
+    await new Promise((callbackfn, errorfn) => {
+        rl.question('Enter quantity:', (q) => {
+            quantity = Number(q);
+            callbackfn();
+        }, ()=> {
+            errorFn();
         });
+    });
+    await new Promise((callbackfn, errorfn) => {
+        rl.question('Enter price:', (p) => {
+            price = Number(p);
+            let item = {itemname, quantity, price, bought};
+            list.push(item);
+            console.log("Item successfully added!\n");
+            menu()
+            callbackfn();
+        }, ()=> {
+            errorFn();
+        });
+    });
+}
+
+function removeItem(){
+    //case 3 functionality
+    rl.question('Enter name of item to be removed:', (itemname) => {
+        const delitem = list.find(item => item.itemname === itemname);
+        if(delitem == null){
+            console.log('Item not found!');
+        }
+        else{
+            console.log('item found, removing item...');
+            list = list.filter(item => item !== delitem);
+            console.log("Item successfully removed!\n");
+        }
+    menu()
+    });
+}
+
+function buyItem(){
+    rl.question('Enter the item you wish to buy:', (itemname) =>{
+        const index = list.findIndex(item => item.itemname === itemname && item.bought === false);
+        if(index == -1){
+            console.log('Item not found!');
+        }
+        else{
+            console.log('item found, buying item...');
+            
+            list[index].bought = true;
+            console.log("Item successfully bought!\n");
+        }
+        menu()
+    })
+}
+
+function handler(option) {
+    switch (option) {
+      case '1':
+        display();
         break;
-      case '4':
-        //case 4 functionality
+
+      case '2':
+        addItem();
         break;
+         
+      case '3':
+        removeItem();
+        break;
+
+      case '4':   
+        buyItem();
+        break;
+
       case '5':
         console.log("Exiting Grocery Shopper...");
         rl.close();
         break;
+
       default:
         console.log("Invalid option, please try again.");
     }
@@ -83,32 +127,13 @@ function handler(option) {
   }
 
   function grocerystore(){
-    //let line = "";
-    //console.log("testing");
-    
-    
-        //menu();
-        //rl.on('line', (line) => {
-            //console.log("test");
-        //});
-        //rl.once('close', () =>{
-            //console.log("end");
-        //});
         menu();
         rl.on('line', (ops) => {
             
             handler(ops);
             
         });
-        /*rl.question(menu(), (line) => {
-            //menu();
-            
-            handler(line);
-            //rl.close();
-            return;
-        });*/
-
-    //rl.close();
+       
   }
 
 grocerystore();
