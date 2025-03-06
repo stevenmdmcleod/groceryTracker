@@ -1,6 +1,6 @@
 const {logger} = require('./logger');
 const http = require('http');
-const {addItem, removeItem, buyItem} = require('./grocerytracker')
+const {addItem, removeItem, buyItem, display} = require('./grocerytracker')
 
 const PORT = 3000;
 
@@ -29,15 +29,17 @@ const server = http.createServer((req, res) => {
                     case "GET":
                         logger.info('GET request made');
                         res.statusCode = 200;
+                        let groceryList = display();
                         res.end(
                             JSON.stringify({
-                                message: "request received!"
+                                message: "request received! Sending grocery list...",
+                                groceryList
                                 
                             })
                         )
                         break;
                     case "POST":
-                        const {name, quantity, price} = body;
+                        var {name, quantity, price} = body;
                         if (!name || !quantity||!price){
                             res.writeHead(400, { 'Content-Type': 'application/json' });
                             //res.write(JSON.stringify(chunk));
@@ -62,6 +64,31 @@ const server = http.createServer((req, res) => {
                             );
                         }
                         break;
+                    
+                        case "DELETE":
+                            //const {} = body;
+                            var {name} = body;
+                            if(removeItem(name) == false){
+                                res.statusCode = 400;
+                                res.end(
+                                
+                                    JSON.stringify({
+                                        message: "Item Not Found",
+                                        
+                                    })
+                                );
+                            }
+                            else{
+                                res.statusCode = 200;
+                                res.end(
+                                
+                                    JSON.stringify({
+                                        message: "Item Successfully removed!",
+                                        
+                                    })
+                                );
+                            }
+                            break;
                 }
             }
         })

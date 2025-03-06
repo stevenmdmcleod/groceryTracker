@@ -74,3 +74,169 @@
 2025-03-06T18:18:56.589Z [info]: ,items,
 2025-03-06T18:18:56.589Z [info]: adding item to the list...
 2025-03-06T18:18:56.589Z [info]: item added to grocery list orange, 8, 10
+2025-03-06T18:22:59.242Z [info]: Server is listening on http://localhost:3000
+2025-03-06T18:23:10.065Z [info]: POST: /items/
+2025-03-06T18:23:10.067Z [info]: ,items,
+2025-03-06T20:29:22.764Z [info]: Server is listening on http://localhost:3000
+2025-03-06T20:29:32.963Z [info]: POST: /items/
+2025-03-06T20:29:32.964Z [info]: ,items,
+2025-03-06T20:29:32.965Z [info]: adding item to the list...
+2025-03-06T20:29:32.965Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:29:34.777Z [info]: POST: /items/
+2025-03-06T20:29:34.777Z [info]: ,items,
+2025-03-06T20:29:34.778Z [info]: adding item to the list...
+2025-03-06T20:29:34.778Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:29:36.384Z [info]: POST: /items/
+2025-03-06T20:29:36.384Z [info]: ,items,
+2025-03-06T20:29:36.385Z [info]: adding item to the list...
+2025-03-06T20:29:36.385Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:29:37.453Z [info]: POST: /items/
+2025-03-06T20:29:37.453Z [info]: ,items,
+2025-03-06T20:29:37.453Z [info]: adding item to the list...
+2025-03-06T20:29:37.453Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:29:50.542Z [info]: GET: /items/
+2025-03-06T20:29:50.542Z [info]: ,items,
+2025-03-06T20:29:50.543Z [info]: GET request made
+2025-03-06T20:31:01.230Z [info]: Server is listening on http://localhost:3000
+2025-03-06T20:31:07.827Z [info]: POST: /items/
+2025-03-06T20:31:07.829Z [info]: ,items,
+2025-03-06T20:31:07.829Z [info]: adding item to the list...
+2025-03-06T20:31:07.830Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:31:08.869Z [info]: POST: /items/
+2025-03-06T20:31:08.869Z [info]: ,items,
+2025-03-06T20:31:08.869Z [info]: adding item to the list...
+2025-03-06T20:31:08.870Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:31:09.609Z [info]: POST: /items/
+2025-03-06T20:31:09.610Z [info]: ,items,
+2025-03-06T20:31:09.610Z [info]: adding item to the list...
+2025-03-06T20:31:09.610Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:31:10.393Z [info]: POST: /items/
+2025-03-06T20:31:10.393Z [info]: ,items,
+2025-03-06T20:31:10.394Z [info]: adding item to the list...
+2025-03-06T20:31:10.394Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:31:11.155Z [info]: POST: /items/
+2025-03-06T20:31:11.155Z [info]: ,items,
+2025-03-06T20:31:11.155Z [info]: adding item to the list...
+2025-03-06T20:31:11.155Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:31:22.858Z [info]: GET: /items/
+2025-03-06T20:31:22.859Z [info]: ,items,
+2025-03-06T20:31:22.859Z [info]: GET request made
+2025-03-06T20:31:22.859Z [info]: Displaying grocery list...
+2025-03-06T20:31:22.859Z [info]: [object Object],[object Object],[object Object],[object Object],[object Object]
+2025-03-06T20:58:51.806Z [info]: Server is listening on http://localhost:3000
+2025-03-06T20:58:59.162Z [info]: GET: /items/
+2025-03-06T20:58:59.163Z [info]: ,items,
+2025-03-06T20:58:59.164Z [info]: GET request made
+2025-03-06T20:58:59.164Z [info]: Displaying grocery list...
+2025-03-06T20:59:06.630Z [info]: POST: /items/
+2025-03-06T20:59:06.632Z [info]: ,items,
+2025-03-06T20:59:06.632Z [info]: adding item to the list...
+2025-03-06T20:59:06.632Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:59:07.465Z [info]: POST: /items/
+2025-03-06T20:59:07.465Z [info]: ,items,
+2025-03-06T20:59:07.466Z [info]: adding item to the list...
+2025-03-06T20:59:07.466Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:59:08.197Z [info]: POST: /items/
+2025-03-06T20:59:08.198Z [info]: ,items,
+2025-03-06T20:59:08.198Z [info]: adding item to the list...
+2025-03-06T20:59:08.198Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:59:08.837Z [info]: POST: /items/
+2025-03-06T20:59:08.837Z [info]: ,items,
+2025-03-06T20:59:08.837Z [info]: adding item to the list...
+2025-03-06T20:59:08.838Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:59:09.729Z [info]: POST: /items/
+2025-03-06T20:59:09.729Z [info]: ,items,
+2025-03-06T20:59:09.729Z [info]: adding item to the list...
+2025-03-06T20:59:09.729Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T20:59:13.886Z [info]: GET: /items/
+2025-03-06T20:59:13.887Z [info]: ,items,
+2025-03-06T20:59:13.887Z [info]: GET request made
+2025-03-06T20:59:13.887Z [info]: Displaying grocery list...
+2025-03-06T20:59:35.328Z [info]: DELETE: /items/
+2025-03-06T21:08:40.836Z [info]: Server is listening on http://localhost:3000
+2025-03-06T21:08:48.242Z [info]: DELETE: /items/
+2025-03-06T21:08:48.244Z [info]: ,items,
+2025-03-06T21:09:06.799Z [info]: POST: /items/
+2025-03-06T21:09:06.800Z [info]: ,items,
+2025-03-06T21:09:06.800Z [info]: adding item to the list...
+2025-03-06T21:09:06.800Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T21:09:07.655Z [info]: POST: /items/
+2025-03-06T21:09:07.656Z [info]: ,items,
+2025-03-06T21:09:07.656Z [info]: adding item to the list...
+2025-03-06T21:09:07.657Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T21:09:08.388Z [info]: POST: /items/
+2025-03-06T21:09:08.388Z [info]: ,items,
+2025-03-06T21:09:08.389Z [info]: adding item to the list...
+2025-03-06T21:09:08.389Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T21:09:09.085Z [info]: POST: /items/
+2025-03-06T21:09:09.085Z [info]: ,items,
+2025-03-06T21:09:09.086Z [info]: adding item to the list...
+2025-03-06T21:09:09.086Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T21:09:09.813Z [info]: POST: /items/
+2025-03-06T21:09:09.813Z [info]: ,items,
+2025-03-06T21:09:09.813Z [info]: adding item to the list...
+2025-03-06T21:09:09.814Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T21:09:15.848Z [info]: GET: /items/
+2025-03-06T21:09:15.848Z [info]: ,items,
+2025-03-06T21:09:15.848Z [info]: GET request made
+2025-03-06T21:09:15.849Z [info]: Displaying grocery list...
+2025-03-06T21:09:29.166Z [info]: DELETE: /items/
+2025-03-06T21:09:29.166Z [info]: ,items,
+2025-03-06T21:09:29.167Z [info]: item found, removing item...
+2025-03-06T21:09:29.167Z [info]: Item successfully removed!
+
+2025-03-06T21:11:51.272Z [info]: DELETE: /items/
+2025-03-06T21:11:51.273Z [info]: ,items,
+2025-03-06T21:11:51.273Z [info]: item found, removing item...
+2025-03-06T21:11:51.273Z [info]: Item successfully removed!
+
+2025-03-06T21:11:52.785Z [info]: DELETE: /items/
+2025-03-06T21:11:52.786Z [info]: ,items,
+2025-03-06T21:11:52.786Z [info]: item found, removing item...
+2025-03-06T21:11:52.786Z [info]: Item successfully removed!
+
+2025-03-06T21:11:53.514Z [info]: DELETE: /items/
+2025-03-06T21:11:53.515Z [info]: ,items,
+2025-03-06T21:11:53.515Z [info]: item found, removing item...
+2025-03-06T21:11:53.515Z [info]: Item successfully removed!
+
+2025-03-06T21:11:54.548Z [info]: DELETE: /items/
+2025-03-06T21:11:54.548Z [info]: ,items,
+2025-03-06T21:11:54.548Z [info]: item found, removing item...
+2025-03-06T21:11:54.548Z [info]: Item successfully removed!
+
+2025-03-06T21:11:55.490Z [info]: DELETE: /items/
+2025-03-06T21:11:55.490Z [info]: ,items,
+2025-03-06T21:12:06.031Z [info]: POST: /items/
+2025-03-06T21:12:06.032Z [info]: ,items,
+2025-03-06T21:12:06.032Z [info]: adding item to the list...
+2025-03-06T21:12:06.032Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T21:12:06.768Z [info]: POST: /items/
+2025-03-06T21:12:06.769Z [info]: ,items,
+2025-03-06T21:12:06.769Z [info]: adding item to the list...
+2025-03-06T21:12:06.769Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-06T21:12:10.149Z [info]: GET: /items/
+2025-03-06T21:12:10.150Z [info]: ,items,
+2025-03-06T21:12:10.150Z [info]: GET request made
+2025-03-06T21:12:10.150Z [info]: Displaying grocery list...

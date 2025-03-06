@@ -21,10 +21,12 @@ function menu(){
 
 
 function display(){
-    console.log("Displaying grocery list...");
+        //console.log("Displaying grocery list...");
         // Functionality for option 1
-        console.log(list);
-        menu();
+        //console.log(list);
+        logger.info("Displaying grocery list...");
+        //logger.info(list);
+        return list;
 }
 
 function addItem(itemname, quantity, price){
@@ -39,7 +41,7 @@ function addItem(itemname, quantity, price){
     /*await new Promise((callbackfn, errorfn) => {
         rl.question('Enter name of item: ', (name) => {
             itemname = name;
-            callbackfn();
+            callbackfn();gi
         }), ()=> {
             errorFn();
             
@@ -68,20 +70,22 @@ function addItem(itemname, quantity, price){
     });*/
 }
 
-function removeItem(){
+function removeItem(itemname){
     //case 3 functionality
-    rl.question('Enter name of item to be removed:', (itemname) => {
+    //rl.question('Enter name of item to be removed:', (itemname) => {
         const delitem = list.find(item => item.itemname === itemname);
         if(delitem == null){
             console.log('Item not found!');
+            return false;
         }
         else{
-            console.log('item found, removing item...');
+            logger.info('item found, removing item...');
             list = list.filter(item => item !== delitem);
-            console.log("Item successfully removed!\n");
+            logger.info("Item successfully removed!\n");
+            return true;
         }
-    menu()
-    });
+    
+    //});
 }
 
 function buyItem(){
@@ -143,7 +147,7 @@ function handler(option) {
 grocerystore();
 
 module.exports = {
-    addItem, removeItem, buyItem
+    addItem, removeItem, buyItem, display
 }
 
 /*rl.prompt('setPrompt', (menu) => {
