@@ -1,5 +1,6 @@
 const {logger} = require('./logger');
 const http = require('http');
+const {addItem, removeItem, buyItem} = require('./grocerytracker')
 
 const PORT = 3000;
 
@@ -36,25 +37,29 @@ const server = http.createServer((req, res) => {
                         )
                         break;
                     case "POST":
-                        const {name, price} = body;
-                        if (!name || !price){
-                            //res.writeHead(400, contentType);
+                        const {name, quantity, price} = body;
+                        if (!name || !quantity||!price){
+                            res.writeHead(400, { 'Content-Type': 'application/json' });
+                            //res.write(JSON.stringify(chunk));
+
                             res.end(
                                 JSON.stringify({
-                                    message: "Please provide a valid name and price"
+                                    message: "Please provide a valid name, quantity, and price"
                                 })
                             )
                         }
                         
                         else{
-
+                            res.statusCode = 201;
+                            //res.write(JSON.stringify(chunk));
+                            item = addItem(name, Number(quantity), Number(price));
                             res.end(
+                                
                                 JSON.stringify({
                                     message: "Item Added to List!",
-                                    name,
-                                    price
+                                    item
                                 })
-                            )
+                            );
                         }
                         break;
                 }
