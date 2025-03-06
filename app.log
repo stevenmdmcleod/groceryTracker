@@ -1,0 +1,38 @@
+2025-03-06T13:39:08.976Z [info]: Server is listening on http://localhost:3000
+2025-03-06T13:51:25.456Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:11:59.144Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:12:24.079Z [info]: [${req.method}]: ${req.url}
+2025-03-06T15:12:42.710Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:23:51.329Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:24:07.837Z [info]: [${req.method}]: [${req.url}]
+2025-03-06T15:24:45.118Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:29:26.482Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:29:32.852Z [info]: GET: /get
+2025-03-06T15:29:52.027Z [info]: GET: /can
+2025-03-06T15:35:22.034Z [info]: GET: /items/
+2025-03-06T15:36:43.119Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:36:47.838Z [info]: GET: /items/
+2025-03-06T15:37:30.400Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:37:36.873Z [info]: GET: /items/
+2025-03-06T15:44:00.142Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:44:05.351Z [info]: GET: /items/
+2025-03-06T15:45:18.533Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:45:21.680Z [info]: GET: /items/
+2025-03-06T15:46:25.058Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:46:28.677Z [info]: GET: /items/
+2025-03-06T15:50:04.832Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:50:08.930Z [info]: GET: /items/
+2025-03-06T15:51:11.264Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:51:15.563Z [info]: GET: /items/
+2025-03-06T15:52:30.860Z [info]: Server is listening on http://localhost:3000
+2025-03-06T15:52:35.100Z [info]: GET: /items/
+2025-03-06T16:03:46.817Z [info]: Server is listening on http://localhost:3000
+2025-03-06T16:03:51.422Z [info]: GET: /items/
+2025-03-06T16:03:51.423Z [info]: ,items,
+2025-03-06T16:05:06.050Z [info]: Server is listening on http://localhost:3000
+2025-03-06T16:05:11.306Z [info]: GET: /items/
+2025-03-06T16:05:11.308Z [info]: ,items,
+2025-03-06T16:05:11.308Z [info]: GET request made
+2025-03-06T16:05:12.878Z [info]: GET: /items/
+2025-03-06T16:05:12.878Z [info]: ,items,
+2025-03-06T16:05:12.879Z [info]: GET request made
