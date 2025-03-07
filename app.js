@@ -89,6 +89,29 @@ const server = http.createServer((req, res) => {
                                 );
                             }
                             break;
+                            case "PATCH":
+                            var {name} = body;
+                            if(buyItem(name) == false){
+                                res.statusCode = 400;
+                                res.end(
+                                
+                                    JSON.stringify({
+                                        message: "Item Not Found",
+                                        
+                                    })
+                                );
+                            }
+                            else{
+                                res.statusCode = 200;
+                                res.end(
+                                
+                                    JSON.stringify({
+                                        message: "Item Successfully bought!",
+                                        
+                                    })
+                                );
+                            }
+                                break;
                 }
             }
         })

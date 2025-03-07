@@ -38,36 +38,7 @@ function addItem(itemname, quantity, price){
     logger.info(`item added to grocery list, name: ${item.itemname}, quantity:
          ${item.quantity}, price: ${item.price}`);
     return item;
-    /*await new Promise((callbackfn, errorfn) => {
-        rl.question('Enter name of item: ', (name) => {
-            itemname = name;
-            callbackfn();gi
-        }), ()=> {
-            errorFn();
-            
-        };
-        
-    });
-    await new Promise((callbackfn, errorfn) => {
-        rl.question('Enter quantity:', (q) => {
-            quantity = Number(q);
-            callbackfn();
-        }, ()=> {
-            errorFn();
-        });
-    });
-    await new Promise((callbackfn, errorfn) => {
-        rl.question('Enter price:', (p) => {
-            price = Number(p);
-            let item = {itemname, quantity, price, bought};
-            list.push(item);
-            console.log("Item successfully added!\n");
-            menu()
-            callbackfn();
-        }, ()=> {
-            errorFn();
-        });
-    });*/
+   
 }
 
 function removeItem(itemname){
@@ -88,20 +59,22 @@ function removeItem(itemname){
     //});
 }
 
-function buyItem(){
-    rl.question('Enter the item you wish to buy:', (itemname) =>{
+function buyItem(itemname){
+    //rl.question('Enter the item you wish to buy:', (itemname) =>{
         const index = list.findIndex(item => item.itemname === itemname && item.bought === false);
         if(index == -1){
-            console.log('Item not found!');
+            logger.info('Item not found!');
+            return false;
         }
         else{
-            console.log('item found, buying item...');
+            logger.info('item found, buying item...');
             
             list[index].bought = true;
-            console.log("Item successfully bought!\n");
+            logger.info("Item successfully bought!\n");
+            return true;
         }
-        menu()
-    })
+        //menu()
+    
 }
 
 function handler(option) {

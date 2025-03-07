@@ -240,3 +240,132 @@
 2025-03-06T21:12:10.150Z [info]: ,items,
 2025-03-06T21:12:10.150Z [info]: GET request made
 2025-03-06T21:12:10.150Z [info]: Displaying grocery list...
+2025-03-07T00:41:27.233Z [info]: Server is listening on http://localhost:3000
+2025-03-07T00:42:26.673Z [info]: GET: /items/
+2025-03-07T00:42:26.677Z [info]: ,items,
+2025-03-07T00:42:26.678Z [info]: GET request made
+2025-03-07T00:42:26.678Z [info]: Displaying grocery list...
+2025-03-07T00:42:34.673Z [info]: POST: /items/
+2025-03-07T00:42:34.675Z [info]: ,items,
+2025-03-07T00:42:34.676Z [info]: adding item to the list...
+2025-03-07T00:42:34.676Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-07T00:42:35.615Z [info]: POST: /items/
+2025-03-07T00:42:35.616Z [info]: ,items,
+2025-03-07T00:42:35.617Z [info]: adding item to the list...
+2025-03-07T00:42:35.618Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-07T00:42:36.488Z [info]: POST: /items/
+2025-03-07T00:42:36.489Z [info]: ,items,
+2025-03-07T00:42:36.490Z [info]: adding item to the list...
+2025-03-07T00:42:36.491Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-07T00:42:37.489Z [info]: POST: /items/
+2025-03-07T00:42:37.490Z [info]: ,items,
+2025-03-07T00:42:37.491Z [info]: adding item to the list...
+2025-03-07T00:42:37.492Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-07T00:42:40.860Z [info]: GET: /items/
+2025-03-07T00:42:40.861Z [info]: ,items,
+2025-03-07T00:42:40.861Z [info]: GET request made
+2025-03-07T00:42:40.862Z [info]: Displaying grocery list...
+2025-03-07T00:42:52.495Z [info]: DELETE: /items/
+2025-03-07T00:42:52.496Z [info]: ,items,
+2025-03-07T00:42:52.496Z [info]: item found, removing item...
+2025-03-07T00:42:52.497Z [info]: Item successfully removed!
+
+2025-03-07T00:42:53.745Z [info]: DELETE: /items/
+2025-03-07T00:42:53.746Z [info]: ,items,
+2025-03-07T00:42:53.747Z [info]: item found, removing item...
+2025-03-07T00:42:53.747Z [info]: Item successfully removed!
+
+2025-03-07T00:42:54.718Z [info]: DELETE: /items/
+2025-03-07T00:42:54.720Z [info]: ,items,
+2025-03-07T00:42:54.720Z [info]: item found, removing item...
+2025-03-07T00:42:54.721Z [info]: Item successfully removed!
+
+2025-03-07T00:42:55.888Z [info]: DELETE: /items/
+2025-03-07T00:42:55.889Z [info]: ,items,
+2025-03-07T00:42:55.890Z [info]: item found, removing item...
+2025-03-07T00:42:55.890Z [info]: Item successfully removed!
+
+2025-03-07T00:42:56.983Z [info]: DELETE: /items/
+2025-03-07T00:42:56.984Z [info]: ,items,
+2025-03-07T01:04:15.224Z [info]: Server is listening on http://localhost:3000
+2025-03-07T01:04:30.254Z [info]: DELETE: /items/
+2025-03-07T01:04:30.257Z [info]: ,items,
+2025-03-07T01:04:36.863Z [info]: POST: /items/
+2025-03-07T01:04:36.866Z [info]: ,items,
+2025-03-07T01:04:36.867Z [info]: adding item to the list...
+2025-03-07T01:04:36.867Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-07T01:04:38.990Z [info]: POST: /items/
+2025-03-07T01:04:38.990Z [info]: ,items,
+2025-03-07T01:04:38.991Z [info]: adding item to the list...
+2025-03-07T01:04:38.991Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-07T01:04:40.802Z [info]: POST: /items/
+2025-03-07T01:04:40.804Z [info]: ,items,
+2025-03-07T01:04:40.804Z [info]: adding item to the list...
+2025-03-07T01:04:40.805Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-07T01:04:46.247Z [info]: GET: /items/
+2025-03-07T01:04:46.249Z [info]: ,items,
+2025-03-07T01:04:46.250Z [info]: GET request made
+2025-03-07T01:04:46.250Z [info]: Displaying grocery list...
+2025-03-07T01:05:46.919Z [info]: PATCH: /items/
+2025-03-07T01:05:46.920Z [info]: ,items,
+2025-03-07T01:05:55.028Z [info]: GET: /items/
+2025-03-07T01:05:55.029Z [info]: ,items,
+2025-03-07T01:05:55.030Z [info]: GET request made
+2025-03-07T01:05:55.031Z [info]: Displaying grocery list...
+2025-03-07T01:06:06.435Z [info]: GET: /items/
+2025-03-07T01:06:06.436Z [info]: ,items,
+2025-03-07T01:06:06.437Z [info]: GET request made
+2025-03-07T01:06:06.437Z [info]: Displaying grocery list...
+2025-03-07T01:06:13.404Z [info]: PATCH: /items/
+2025-03-07T01:06:13.406Z [info]: ,items,
+2025-03-07T01:06:22.636Z [info]: GET: /items/
+2025-03-07T01:06:22.636Z [info]: ,items,
+2025-03-07T01:06:22.637Z [info]: GET request made
+2025-03-07T01:06:22.637Z [info]: Displaying grocery list...
+2025-03-07T01:07:41.933Z [info]: Server is listening on http://localhost:3000
+2025-03-07T01:07:47.047Z [info]: GET: /items/
+2025-03-07T01:07:47.049Z [info]: ,items,
+2025-03-07T01:07:47.050Z [info]: GET request made
+2025-03-07T01:07:47.051Z [info]: Displaying grocery list...
+2025-03-07T01:07:51.458Z [info]: POST: /items/
+2025-03-07T01:07:51.460Z [info]: ,items,
+2025-03-07T01:07:51.461Z [info]: adding item to the list...
+2025-03-07T01:07:51.462Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-07T01:07:52.499Z [info]: POST: /items/
+2025-03-07T01:07:52.500Z [info]: ,items,
+2025-03-07T01:07:52.501Z [info]: adding item to the list...
+2025-03-07T01:07:52.501Z [info]: item added to grocery list, name: orange, quantity:
+         8, price: 10
+2025-03-07T01:07:56.289Z [info]: GET: /items/
+2025-03-07T01:07:56.290Z [info]: ,items,
+2025-03-07T01:07:56.291Z [info]: GET request made
+2025-03-07T01:07:56.291Z [info]: Displaying grocery list...
+2025-03-07T01:08:03.228Z [info]: PATCH: /items/
+2025-03-07T01:08:03.230Z [info]: ,items,
+2025-03-07T01:08:03.230Z [info]: item found, buying item...
+2025-03-07T01:08:03.231Z [info]: Item successfully bought!
+
+2025-03-07T01:08:07.492Z [info]: GET: /items/
+2025-03-07T01:08:07.493Z [info]: ,items,
+2025-03-07T01:08:07.494Z [info]: GET request made
+2025-03-07T01:08:07.494Z [info]: Displaying grocery list...
+2025-03-07T01:08:18.240Z [info]: PATCH: /items/
+2025-03-07T01:08:18.241Z [info]: ,items,
+2025-03-07T01:08:18.242Z [info]: item found, buying item...
+2025-03-07T01:08:18.242Z [info]: Item successfully bought!
+
+2025-03-07T01:08:27.449Z [info]: PATCH: /items/
+2025-03-07T01:08:27.451Z [info]: ,items,
+2025-03-07T01:08:27.451Z [info]: Item not found!
+2025-03-07T01:08:33.922Z [info]: GET: /items/
+2025-03-07T01:08:33.924Z [info]: ,items,
+2025-03-07T01:08:33.925Z [info]: GET request made
+2025-03-07T01:08:33.925Z [info]: Displaying grocery list...
