@@ -7,6 +7,7 @@ const PORT = 3000;
 const server = http.createServer((req, res) => {
     let body = "";
 
+    
 
     logger.info(`${req.method}: ${req.url}`);
 
@@ -23,7 +24,8 @@ const server = http.createServer((req, res) => {
             
             if (req.url.startsWith("/items")){
                 logger.info(req.url.split('/'));
-                let index = parseInt(req.url.split("/")[2]);
+                let index = parseInt(req.url.split("/"));
+                console.log(index);
 
                 switch(req.method){
                     case "GET":
